@@ -1,1 +1,0 @@
-![Good_tree]([ACM-s/Good_tree.jpg at main · zhangxinh/ACM-s · GitHub](https://github.com/zhangxinh/ACM-s/blob/main/Good_tree.jpg))
