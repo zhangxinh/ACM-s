@@ -1,4 +1,5 @@
 ```c++
+static char buf[1000000],*p1=buf,*p2=buf,obuf[1000000],*p3=obuf;
 #define getchar() p1==p2&&(p2=(p1=buf)+fread(buf,1,1000000,stdin),p1==p2)?EOF:*p1++
 #define putchar(x) (p3-obuf<1000000)?(*p3++=x):(fwrite(obuf,p3-obuf,1,stdout),p3=obuf,*p3++=x)
 template<typename item>
